@@ -31,7 +31,7 @@ aws dynamodb get-item --table-name devops-challenge --key '{"code_name": {"S": "
     }
 }
 
-7. Sinchronized Drone.io with Git
+7. Synchronized Drone.io with Git
 
 8. Downloaded the CentOS Docker container from the official Docker website:
 sudo docker pull centos:latest
@@ -39,7 +39,7 @@ sudo docker pull centos:latest
 9. Started the container:
 sudo docker run -it --name myWebserver centos:latest
 
-10. I installed Apache
+10. Installed Apache
 yum update 					#update the repository
 yum install httpd -y		#install web service
 yum install nano -y			#install nano text editor
